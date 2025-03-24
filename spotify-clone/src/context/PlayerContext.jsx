@@ -8,7 +8,7 @@ const PlayerContextProvider = (props) => {
   const seekBg = useRef();
   const seekBar = useRef();
 
-  const url = 'http://localhost:4000';
+  const url = 'https://spotify-full-stack-mern-1i1s.onrender.com';
 
   const [songsData,setSongsData] =useState([]);
   const [albumsData,setAlbumsData] = useState([]);
